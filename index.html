@@ -1,10 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>RSMS Project</title>
+    <title>MoistureMapper (RSMS)</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 40px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        h2 {
+            margin-top: 40px;
+            color: #34495e;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Robotic Soil Moisture Sampling Project(RSMS)</h1>
-    <p>Soil moisture is a key variable for agricultural management, irrigation optimization, and environmental monitoring, but existing sensing approaches remain limited in their ability to provide accurate, high-resolution measurements at field scale. This paper presents MoistureMapper, an autonomous unmanned ground vehicle for in-situ soil moisture mapping using Time Domain Reflectometry (TDR) sensing integrated with a force-aware direct push drilling mechanism. The system combines a rugged mobile platform, RTK-GNSS localization, autonomous waypoint navigation, and probe insertion depth estimation to enable reliable volumetric water content measurements at subsurface-levels and across heterogeneous field conditions. In addition, the platform incorporates Gaussian Process–based adaptive sampling methods that update soil moisture maps online and select future sampling locations by balancing information gain and travel cost. Lab, field, and simulation studies are used to evaluate the robotic sensing platform and adaptive sampling framework. Results demonstrate robust autonomous operation in outdoor environments and show that the adaptive sampling strategies reduce travel distance by up to 30\% compared with greedy sampling while supporting efficient high-resolution soil moisture mapping. These results highlight the potential of autonomous robotic in-situ sensing for scalable agricultural moisture monitoring.</p>
+
+    <h1>🌱 MoistureMapper: Autonomous Soil Moisture Mapping</h1>
+
+    <div class="card">
+        <h2>Overview</h2>
+        <p>
+            Soil moisture is a key variable for agricultural management, irrigation optimization,
+            and environmental monitoring. However, existing sensing approaches struggle to provide
+            accurate, high-resolution measurements at field scale.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>System</h2>
+        <p>
+            MoistureMapper is an autonomous unmanned ground vehicle designed for in-situ soil moisture
+            mapping. It uses Time Domain Reflectometry (TDR) sensing combined with a force-aware
+            direct push drilling mechanism to collect reliable subsurface measurements.
+        </p>
+        <p>
+            The platform integrates a rugged mobile base, RTK-GNSS localization, autonomous waypoint
+            navigation, and probe insertion depth estimation to operate across heterogeneous field conditions.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Adaptive Sampling Method</h2>
+        <p>
+            The system uses Gaussian Process–based adaptive sampling to continuously update soil moisture
+            maps in real time. Future sampling locations are selected by balancing information gain and
+            travel cost, enabling efficient exploration of the environment.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Results</h2>
+        <p>
+            Lab, field, and simulation experiments demonstrate robust autonomous operation in outdoor
+            environments. The adaptive sampling strategy reduces travel distance by up to 30% compared
+            to greedy methods while maintaining high-resolution soil moisture mapping performance.
+        </p>
+        <p>
+            These results highlight the potential of autonomous robotic in-situ sensing for scalable
+            agricultural monitoring.
+        </p>
+    </div>
+
 </body>
 </html>
